@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "name": "Accordion",
+      "className": "Accordion",
+      "description": "Adds an accordion to the editor.",
+      "path": "src/accordion.ts",
+      "uiComponents": [
+        {
+          "name": "accordionButton",
+          "type": "Button",
+          "iconPath": "theme/icons/ckeditor.svg"
+        }
+      ]
+    }
+  ]
+}

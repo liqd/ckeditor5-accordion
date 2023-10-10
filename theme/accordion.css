@@ -1,0 +1,27 @@
+.collapsible-item::before {
+	font-size: 10px;
+	color: hsl(0, 0%, 0%);
+	content: "Collapsible element";
+}
+.collapsible-item {
+	padding: 8px;
+	margin: 10px;
+	background: hsl(0, 0%, 93%);
+	border-radius: 8px;
+	border: 1px solid  	hsl(0, 0%, 87%);
+	box-shadow: 0 1px 1px hsl(0, 0%, 100%) inset, 0 -1px 0px hsl(0, 0%, 80%) inset;
+}
+.collapsible-item-title,
+.collapsible-item-body {
+	box-shadow: 0 1px 1px hsl(0, 0%, 87%) inset;
+	border: 1px solid hsl(0, 0%, 80%);
+	border-radius: 5px;
+	background: hsl(0, 0%, 100%);
+}
+.collapsible-item-title {
+	margin: 0 0 8px;
+	padding: 5px 8px;
+}
+.collapsible-item-body {
+	padding: 0 8px;
+}
